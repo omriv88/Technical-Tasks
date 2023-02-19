@@ -5,11 +5,11 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
 
 
 # Summary
- - 1 - Write a docker-compose.yml file that starts wordpress application (wordpress is a blogging application with a MySQL backend).
+ - 1 - Write a docker-compose.yml file that run wordpress application (wordpress is a blogging application with a MySQL backend).
  - 2 - Write a Terraform script that Deploy new server on AWS environment 
  - 3 - Write an ansible role that installs requimanets and packages on the servers, and run the application. 
  - 4 - Write a jenkins pipeline that does the following:
-      a. Checks out this repository: f
+      a. Checks out this repository: https://github.com/omriv88/Technical-Tasks.git
       b. Deploy the project on the new server.
 
 # Description
