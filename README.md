@@ -1,8 +1,8 @@
 # Technical-Tasks
-Deploy wordpress application (wordpress is a blogging application with a MySQL backend) on container
-Deploy the server via Terraform
-Deploy the application via Ansible
-Run the project via Jenkins
+- Deploy wordpress application (wordpress is a blogging application with a MySQL backend) on container
+- Deploy the server via Terraform
+- Deploy the application via Ansible
+- Run the project via Jenkins
 
 
 
