@@ -17,7 +17,7 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
   
  
  * 1 - Docker-compose.yaml (https://github.com/omriv88/wordpress.git):
-![image](https://user-images.githubusercontent.com/113102456/219939954-8fb70f3a-ed71-4a0a-a4e8-bcb7e24ad896.png)
+![image](https://user-images.githubusercontent.com/113102456/219940757-d602ce66-4475-4cbf-ab19-7a2c62ea9f08.png)
 
 
  * 2 - main.tf:
