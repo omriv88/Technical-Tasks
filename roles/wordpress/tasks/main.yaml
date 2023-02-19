@@ -1,0 +1,28 @@
+---
+  - name: Requirements
+    become: yes
+    shell: |
+      yum install docker -y
+      systemctl start docker
+      systemctl enable docker
+      yum install git-all -y
+      yum install pip -y
+      pip install docker-py
+      yum install python3-pip -y
+      pip install pyYAML
+  - name: install docker compose
+    become: yes
+    shell: sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+  - name: Compose
+    become: yes
+    shell: chmod +x /usr/local/bin/docker-compose
+
+  - name: Checkout repositories
+    become: yes
+    shell: git clone https://github.com/omriv88/wordpress.git
+
+  - name: Run 
+    shell: >
+     /usr/local/bin/docker-compose -f "/home/ec2-user/wordpress/docker-compose.yaml" up -d
+    become: true
