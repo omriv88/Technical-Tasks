@@ -7,8 +7,8 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                sh 'git clone https://github.com/omriv88/deploy-demo.git'
-                sh 'ls -l deploy-demo/'
+                sh 'git clone https://github.com/omriv88/Technical-Tasks.git'
+                sh 'ls -l Technical-Tasks/'
             }
         }
         stage('Terraform version') {
@@ -20,14 +20,14 @@ pipeline {
         
         stage('Terraform init') {
             steps {
-                dir('/root/workspace/deploy-demo/deploy-demo'){
+                dir('/root/workspace/deploy-demo/Technical-Tasks'){
                     sh 'terraform init'
                 }
             }
         }
         stage('Terraform plan') {
             steps {
-                dir('/root/workspace/deploy-demo/deploy-demo'){
+                dir('/root/workspace/deploy-demo/Technical-Tasks'){
                     sh 'terraform apply -auto-approve'
                 }
             }
