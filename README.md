@@ -26,8 +26,8 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
  
  
  * 3 Ansible role - main.yaml:
- ![image](https://user-images.githubusercontent.com/113102456/219937736-d8c7bb61-cbbe-407a-ab87-627d5dcf64c6.png)
+![image](https://user-images.githubusercontent.com/113102456/219937736-d8c7bb61-cbbe-407a-ab87-627d5dcf64c6.png)
 
 
  * 4 - Jenkinsfile:
- ![image](https://user-images.githubusercontent.com/113102456/219938010-9adc9ee3-8444-4b57-9082-20048c1d7f07.png)
+![image](https://user-images.githubusercontent.com/113102456/219941110-cf3628de-5106-47b7-835f-6cd267a19c84.png)
