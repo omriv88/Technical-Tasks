@@ -12,6 +12,7 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
       * a. Checks out the repository
       * b. Deploy the project.
 
+
 # Description
   
  
