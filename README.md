@@ -28,6 +28,5 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
  ![image](https://user-images.githubusercontent.com/113102456/219937736-d8c7bb61-cbbe-407a-ab87-627d5dcf64c6.png)
 
 
- * 4 - Jenkins file:
+ * 4 - Jenkinsfile:
  ![image](https://user-images.githubusercontent.com/113102456/219938010-9adc9ee3-8444-4b57-9082-20048c1d7f07.png)
-
