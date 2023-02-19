@@ -1,11 +1,8 @@
 # Technical-Tasks
-
-
-
+Deploy wordpress application (wordpress is a blogging application with a MySQL backend)
 
 
 # Summary
-Deploy wordpress application (wordpress is a blogging application with a MySQL backend) on container, Deploy the server via Terraform, Deploy the application via Ansible, run the project via jenkins
 
 - 1 - Write a docker-compose.yml file that run wordpress application (wordpress is a blogging application with a MySQL backend).
  - 2 - Write a Terraform script that Deploy new server on AWS environment 
