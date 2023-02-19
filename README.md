@@ -1,5 +1,5 @@
 # Technical-Tasks
-Deploy wordpress application (wordpress is a blogging application with a MySQL backend), using Ansible, Terraform, Docker, Jenkins
+Deploy wordpress application (wordpress is a blogging application with a MySQL backend), using Ansible, Terraform, Docker, Jenkins.
 
 
 
@@ -9,7 +9,7 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
  - 2 - Write a Terraform script that Deploy new server on AWS environment 
  - 3 - Write an ansible role that installs requimanets and packages on the servers, and run the application. 
  - 4 - Write a jenkins pipeline that does the following:
-      * a. Checks out the repository
+      * a. Checks out the repository.
       * b. Deploy the project.
 
 
