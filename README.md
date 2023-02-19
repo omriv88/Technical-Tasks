@@ -16,11 +16,11 @@ Deploy wordpress application (wordpress is a blogging application with a MySQL b
   
  
  * 1 - Docker-compose.yaml:
- ![image](https://user-images.githubusercontent.com/113102456/219937636-95031bcc-b32c-4989-9df9-b723ce11793d.png)
+![image](https://user-images.githubusercontent.com/113102456/219939954-8fb70f3a-ed71-4a0a-a4e8-bcb7e24ad896.png)
 
 
  * 2 - main.tf:
- ![image](https://user-images.githubusercontent.com/113102456/219937925-0a3d793d-7048-42ff-89fb-b32f4e77d46e.png)
+![image](https://user-images.githubusercontent.com/113102456/219937925-0a3d793d-7048-42ff-89fb-b32f4e77d46e.png)
 ![image](https://user-images.githubusercontent.com/113102456/219937943-ee6cef2c-8b13-409c-aadc-6dad25d7e8d2.png)
  
  
